@@ -1,0 +1,15 @@
+{% extends "home/index.html" %}
+
+{% block body %}
+
+<div style="margin: 50px:">
+     <div class="container">
+         <p>You have successfully logged out</p>
+         <p>click on the link below to login</p>
+         <div>
+             <a href="{% url 'account:login_view' %}">login</a>
+
+             </div>
+
+
+{% endblock body %}
